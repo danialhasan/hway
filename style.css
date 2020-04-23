@@ -1,0 +1,111 @@
+body {
+    font-family: 'Helvetica Neue', 'Liberation Sans', sans-serif;
+    z-index: -1;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 5px 10px grey;
+    background-color: white;
+    z-index: 1;
+}
+
+#nav img {
+    float: left;
+    width: 246px;
+    height: 150px;
+    margin-left: 100px;
+}
+
+#nav ul {
+    font-size: 1.8125rem;
+    float: right;
+    align-items: center;
+    margin-top: 61px;
+    margin-right: 100px;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+#nav ul li:last-of-type {
+    margin: 0px 0px 0px 20px;
+}
+
+#nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5625rem;
+    /*25px, rem is 16px*/
+}
+
+#header {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 990px;
+    height: 420px;
+    /*    border: 2px solid black;*/
+}
+
+#header h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#subheader {
+    position: absolute;
+    top: 315px;
+    right: 100px;
+    width: 500px;
+    height: 312px;
+    /*    border: 2px solid black;*/
+}
+
+#subheader ul {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+#subheader ul li {
+    font-size: 50px;
+}
+
+#subheader ul li:last-of-type {
+    list-style-type: none;
+}
+
+.button {
+    position: absolute;
+    background-color: white;
+    border: 5px solid black;
+    color: none;
+    width: 232px;
+    height: 64px;
+    top: 690px;
+    left: 50%;
+    margin-left: -116px;
+    border-radius: 32px;
+}
+
+.button h3 {
+    font-size: 30px;
+}
+
+.blue-curve {
+    position: absolute;
+    top: 805px;
+}
+
+#why-hway-container {
+    position: absolute;
+    display: flex;
+    top: 890px;
+    width: 100%;
+    height: 1780px;
+    background-color: #003366;
+}

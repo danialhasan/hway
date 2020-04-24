@@ -4,7 +4,7 @@ body {
 }
 
 #nav {
-    position: fixed;
+    /*    position: fixed;*/
     width: 100%;
     height: 150px;
     box-shadow: 0px 5px 10px grey;
@@ -93,7 +93,7 @@ body {
 }
 
 .button h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .blue-curve {
@@ -101,11 +101,76 @@ body {
     top: 805px;
 }
 
+.blue-curve-inverted {
+    position: absolute;
+    top: 2550px
+}
+
 #why-hway-container {
     position: absolute;
     display: flex;
+    flex-direction: column;
+    /*    align-content: center;*/
+    justify-content: center;
     top: 890px;
     width: 100%;
     height: 1780px;
     background-color: #003366;
+    color: black;
+}
+
+#why-hway-container h2 {
+    position: absolute;
+    color: white;
+    font-size: 3.75rem;
+    font-weight: bold;
+    top: 0px;
+    left: 50%;
+    margin-left: -175px;
+    padding: 50px 0px 20px 0px;
+}
+
+.hway-info {
+    /*    display: flex;*/
+    width: 1550px;
+    height: 411px;
+    margin: 40px auto;
+    /*    border: 5px solid black;*/
+    background-color: whitesmoke;
+}
+
+.info-text {
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    /*        background-color: red*/
+    /*    align-content: center;*/
+}
+
+.info-text h3 {
+    padding: 0px 70px;
+    align-self: center;
+
+}
+
+.info-image {
+    float: right;
+    width: 50%;
+    height: 100%;
+
+    /*    background-color: purple*/
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+.placeholder-image {
+    background-color: grey;
 }

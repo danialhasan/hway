@@ -175,7 +175,7 @@ body {
 
 #services-container {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     text-align: center;
 }
 
@@ -191,8 +191,8 @@ body {
 }
 
 #services-cards-container {
-    margin: 0px auto;
-    width: 1500px;
+    margin: 80px auto 0px auto;
+    width: 1600px;
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -204,20 +204,20 @@ body {
     width: 40px;
     height: 100%;
     flex-grow: 1;
-    background-color: yellow;
 }
 
 .card-image {
     width: 100%;
-    height: 50%;
-    background-color: purple;
-    border: 1px solid red
+    height: 40%;
+    /*    background-color: purple;*/
+    /*    border: 1px solid red*/
 }
 
 .card-text {
     width: 100%;
-    height: 50%;
-    background-color: red
+    height: 60%;
+    text-align: center;
+    border: 1px solid red;
 }
 
 .card-image img {
@@ -227,8 +227,8 @@ body {
 
 h2#card-description-subheader {
     font-size: 27px;
-    font-weight: normal;
-    margin: 0px;
+    font-weight: bold;
+    margin-top: 20px;
     padding: 0px;
 }
 
@@ -236,5 +236,69 @@ h3#card-description-text {
     font-size: 20px;
     font-weight: normal;
     margin: 0px;
-    padding: 0px;
+    padding: 10px 25px 25px 25px;
+    line-height: 24px;
+}
+
+#popular-destinations-header {
+    font-size: 3.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+#popular-destinations-subheader {
+    font-size: 30px;
+    width: 81.25rem;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#popular-destinations {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin: 50px auto 0px auto;
+    /*    background-color: red;*/
+}
+
+.destinations {
+    width: 50%;
+    height: 100%;
+}
+
+#canada {
+    /*    background-color: deepskyblue;*/
+    /*    border: 1px solid red;*/
+    float: left;
+}
+
+#canada ul {
+    /*    margin: auto 80px*/
+    padding: 0px 100px;
+}
+
+#us {
+    /*        background-color: blue;*/
+    /*    border: 1px solid blue;*/
+
+    float: right;
+
+}
+
+.destinations h2 {
+    font-size: 50px;
+    text-align: center
+}
+
+.destinations ul {
+    /*    padding: 25px;*/
+    width: 500px;
+    margin: 25px auto;
+}
+
+.destinations ul li {
+    list-style-type: disc;
+    font-size: 30px;
 }

@@ -319,32 +319,67 @@ h3#card-description-text {
     padding-top: 100px;
 }
 
+#footer-copyright-info {
+    float: right;
+    width: 420px;
+    height: auto;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#footer-copyright-info h3 {
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 0px 0px 20px 0px;
+}
+
 #footer-info-container {
     width: 100%;
+    height: 150px;
+    /*supposed to be 142px*/
+    margin-top: 50px;
+    /*    background-color: red;*/
+}
+
+#footer-info-container-small {
+    display: inline-flex;
+    width: auto;
     height: 142px;
-    margin-top: 54px;
-    background-color: red;
+    /*    background-color: purple;*/
+    margin-top: 50px;
+}
+
+.footer-info-small {
+    width: 100%;
+    height: 50%;
+    /*    border:1px solid yellow*/
 }
 
 .footer-info {
+    /*    position: absolute;*/
+    /*    border: 1px solid white;    */
+    margin: 0px 100px;
+}
 
-    width: 500px;
-    height: 100px;
-    /*    background-color: black;*/
-    display: inline-block;
+.footer-info:nth-of-type(1) {
+    width: 440px;
+    /*    margin: 0px 0px 200px 230px*/
+}
+
+.footer-info:nth-of-type(2) {
+    width: 390px;
 }
 
 .footer-info img {
-    width: 32px;
-    height: 48px;
-    margin-bottom: 40px;
+    /*    margin-bottom: 40px;*/
     padding: 0px;
 }
 
 .footer-info ul {
     display: inline-block;
     color: whitesmoke;
-    margin-left: 10px;
+    float: right;
 }
 
 .footer-info ul li {

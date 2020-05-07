@@ -12,11 +12,11 @@ function myFunction() {
 var y = 1;
 
 function overlay() {
-    if (y = 1) {
+    if (y == 1) {
         document.getElementById("overlay").style.display = "block";
-        y === 0;
+        y = 0;
     } else {
         document.getElementById("overlay").style.display = "none";
-        y === 1;
+        y = 1;
     }
 }

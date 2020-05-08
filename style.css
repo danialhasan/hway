@@ -859,8 +859,17 @@ h3#card-description-text {
 
 
     #popular-destinations-subheader {
+        width: 100%;
         margin: 25px 0px;
         padding: 0px;
+    }
+
+    #popular-destinations-subheader h3 {
+        margin: 0px 30px;
+    }
+
+    #popular-destinations-subheader h3:before {
+        content: "We can help you plan an event or trip to just about anywhere in North America,<br> but here are some of the cities in our network that we already have <br>pre-approved “kosher-friendly” properties in to get you started.";
     }
 
     #popular-destinations {

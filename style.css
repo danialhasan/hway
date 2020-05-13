@@ -260,7 +260,7 @@ h3#card-description-text {
 
 #popular-destinations-subheader {
     font-size: 30px;
-    width: 81.25rem;
+    width: 65rem;
     margin: 2rem auto 0px auto;
     text-align: center;
 }
@@ -399,6 +399,12 @@ h3#card-description-text {
 }
 
 .icon {
+    display: none;
+}
+
+.hway-info-m,
+info-text-m,
+info-image-m {
     display: none;
 }
 
@@ -730,6 +736,10 @@ h3#card-description-text {
         margin: 25px 0px;
     }
 
+    #popular-destinations-subheader h3 {
+        margin: 0px 30px;
+    }
+
     #popular-destinations {
         width: 100%;
         height: 100%;
@@ -868,10 +878,6 @@ h3#card-description-text {
         margin: 0px 30px;
     }
 
-    #popular-destinations-subheader h3:before {
-        content: "We can help you plan an event or trip to just about anywhere in North America,<br> but here are some of the cities in our network that we already have <br>pre-approved “kosher-friendly” properties in to get you started.";
-    }
-
     #popular-destinations {
         position: static;
         /*                overflow-x:scroll;*/
@@ -892,8 +898,9 @@ h3#card-description-text {
         font-size: 50px;
     }
 
-    .destinations ul li {
-        font-size: 25px;
+    .destinations ul {
+        margin: 0px;
+        padding: 0px
     }
 
     #footer {
@@ -914,4 +921,141 @@ h3#card-description-text {
         margin: 0px auto 50px auto;
 
     }
+}
+
+@media only screen and (max-width: 375px) {
+    #footer-info-container-small {
+        margin: 70px 0px 0px 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    #footer-info-container-small .footer-info {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+    }
+
+    #footer-info-container-small .footer-info ul li {
+        font-size: 16px;
+        /*        padding:10px 0px;*/
+    }
+
+    #footer-info-container-small .footer-info:first-of-type {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footer-info,
+    .footer-info-small,
+    .footer-info-small:last-of-type {
+        margin: 0px;
+        padding: 10px 0px;
+        width: 375px;
+    }
+
+    .footer-info {
+        width: 100%;
+    }
+
+    /*    .footer-info ul*/
+    .footer-info-small ul,
+    .footer-info-small:last-of-type ul {
+        font-size: 50px;
+        width: 375px;
+
+    }
+
+    #footer-copyright-info {
+        width: 100%;
+    }
+
+    #footer-copyright-info h3 {
+        font-size: 16px;
+    }
+
+    /*ignore footer for now*/
+    #header {
+        /*        border: 1px solid red;*/
+        positioN: absolute;
+        left: 50%;
+        margin-left: -176px;
+        top: 170px;
+        text-align: center;
+        /*        margin:0px auto;*/
+    }
+
+    #subheader {
+        top: 450px;
+        width: auto;
+        left: 0%;
+        margin-left: 60px;
+
+        /*        border: 1px solid red;*/
+    }
+
+    .blue-curve {
+        top: 720px;
+        height: 50px;
+    }
+
+    .button {
+        top: 650px;
+    }
+
+    #why-hway-container {
+        margin-top: 750px;
+    }
+
+    #why-hway-container h2 {
+        text-align: center;
+    }
+
+    .hway-info {
+        width: 100%;
+        height: 400px;
+    }
+
+    .info-text {
+        width: 100%;
+        height: 200px;
+        float: right;
+
+        /*        display:none;*/
+    }
+
+    .info-text h3 {
+        font-size: 20px;
+    }
+
+    .info-image {
+        width: 100%;
+        height: 220px;
+        float: left;
+    }
+
+    #canada ul {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .destinations h2 {
+        font-size: 50px;
+        text-align: center;
+        /*        font-weight: bold;*/
+
+    }
+
+    .destinations ul {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center
+    }
+
+    /*
+    .destinations ul li {
+        list-style-type: disc;
+        font-size: 30px;
+    }
+*/
 }

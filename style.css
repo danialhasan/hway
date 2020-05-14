@@ -408,6 +408,21 @@ info-image-m {
     display: none;
 }
 
+#img1 {
+    width: 32px;
+    height: 48px;
+}
+
+#img2 {
+    width: 40px;
+    height: 40px;
+}
+
+#img3 {
+    width: 48px;
+    height: 32px;
+}
+
 @media only screen and (max-width: 1440px) {
     .nav {
         height: 7.1875rem;
@@ -512,12 +527,8 @@ info-image-m {
     }
 
     #popular-destinations-header {
-        margin-top: 0px
-            /*        margin-top: 1500px*/
-    }
-
-    #popular-destinations-header {
         font-size: 60px;
+        margin-top: 0px
     }
 
     #popular-destinations-subheader {
@@ -933,10 +944,14 @@ info-image-m {
     #footer-info-container-small .footer-info {
         margin: 0px 0px 0px 0px;
         padding: 0px 0px;
+        width: 100%;
     }
 
     #footer-info-container-small .footer-info ul li {
-        font-size: 16px;
+        font-size: 20px;
+        width: 100%;
+        /*        border: 1px solid red;*/
+        display: block;
         /*        padding:10px 0px;*/
     }
 
@@ -949,8 +964,18 @@ info-image-m {
     .footer-info-small,
     .footer-info-small:last-of-type {
         margin: 0px;
-        padding: 10px 0px;
+        padding: 20px 0px;
         width: 375px;
+        /*        overflow-x:hidde n;*/
+    }
+
+    #img1,
+    #img2,
+    #img3 {
+        float: left;
+        display: inline;
+        width: 40px;
+        margin-left: 30px;
     }
 
     .footer-info {
@@ -960,9 +985,13 @@ info-image-m {
     /*    .footer-info ul*/
     .footer-info-small ul,
     .footer-info-small:last-of-type ul {
-        font-size: 50px;
-        width: 375px;
+        /*        font-size: 50px;*/
+        width: auto;
 
+    }
+
+    .footer-info-small:last-of-type ul {
+        margin-top: 9px;
     }
 
     #footer-copyright-info {
@@ -1058,4 +1087,24 @@ info-image-m {
         font-size: 30px;
     }
 */
+    #services-cards-container {
+        /*        overflow-y: hidden;*/
+        width: 100%;
+        height: auto;
+    }
+
+    #services-container-subheader {
+        font-size: 1.47rem;
+        height: 160px;
+    }
+
+    #popular-destinations-header {
+        background-color: red;
+        /*        position:static;*/
+        margin-top: 50px;
+    }
+
+    #popular-destinations-header {}
+
+
 }

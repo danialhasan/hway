@@ -935,6 +935,154 @@ info-image-m {
 }
 
 @media only screen and (max-width: 425px) {
+
+
+
+    #header {
+        /*        border: 1px solid red;*/
+        positioN: absolute;
+        left: 50%;
+        margin-left: -176px;
+        top: 170px;
+        text-align: center;
+        /*        margin:0px auto;*/
+    }
+
+    #subheader {
+        top: 450px;
+        width: auto;
+        left: 0%;
+        margin-left: 60px;
+
+        /*        border: 1px solid red;*/
+    }
+
+    .blue-curve {
+        top: 720px;
+        height: 50px;
+    }
+
+    .button {
+        top: 650px;
+    }
+
+    #why-hway-container {
+        margin-top: 750px;
+    }
+
+    #why-hway-container h2 {
+        text-align: center;
+    }
+
+    .hway-info {
+        /*
+        width: 100%;
+        height: 400px;
+*/
+        display: none;
+    }
+
+    #canada ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #popular-destinations-header {
+        margin-top: 150px;
+    }
+
+    #popular-destinations {
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    /*warning: #popular-destinations-header is setting its margin 150px away from a specific point/y-coord from top of page for no reason, when it should be setting it 150px away from the bottom of #services-cards-container */
+    .destinations {
+        height: 250px;
+    }
+
+    .destinations h2 {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .destinations ul {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .destinations ul li {
+        font-size: 25px;
+
+    }
+
+    /*
+    .destinations ul li {
+        list-style-type: disc;
+        font-size: 30px;
+    }
+*/
+    #services-cards-container {
+        /*        overflow-y: hidden;*/
+        width: 100%;
+        height: auto;
+    }
+
+    #services-container-subheader {
+        font-size: 1.47rem;
+        height: 160px;
+        width: 400px;
+    }
+
+    /*set max height for card img dimensions*/
+    .card {
+        height: auto;
+
+        /*        overflow-y: hidden;*/
+    }
+
+    .card-image {
+        max-height: 140px;
+    }
+
+    .hway-info-m {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+
+    .info-image-m {
+        width: 100%;
+        height: 220px;
+    }
+
+    .info-image-m img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-text-m {
+        color: whitesmoke;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .info-text-m h3 {
+        padding: 0px 15px;
+    }
+
+    #left,
+    #right {
+        float: none;
+    }
+
+    .blue-curve-inverted {
+        top: 2280px
+    }
+
     #footer-info-container-small {
         margin: 70px 0px 0px 0px;
         padding: 0px;
@@ -1000,133 +1148,6 @@ info-image-m {
 
     #footer-copyright-info h3 {
         font-size: 16px;
-    }
-
-    /*ignore footer for now*/
-    #header {
-        /*        border: 1px solid red;*/
-        positioN: absolute;
-        left: 50%;
-        margin-left: -176px;
-        top: 170px;
-        text-align: center;
-        /*        margin:0px auto;*/
-    }
-
-    #subheader {
-        top: 450px;
-        width: auto;
-        left: 0%;
-        margin-left: 60px;
-
-        /*        border: 1px solid red;*/
-    }
-
-    .blue-curve {
-        top: 720px;
-        height: 50px;
-    }
-
-    .button {
-        top: 650px;
-    }
-
-    #why-hway-container {
-        margin-top: 750px;
-    }
-
-    #why-hway-container h2 {
-        text-align: center;
-    }
-
-    .hway-info {
-        /*
-        width: 100%;
-        height: 400px;
-*/
-        display: none;
-    }
-
-    #canada ul {
-        padding: 0px;
-        margin: 0px;
-
-    }
-
-    .destinations h2 {
-        font-size: 50px;
-        text-align: center;
-        /*        font-weight: bold;*/
-
-    }
-
-    .destinations ul {
-        width: 100%;
-        margin: 0px auto;
-        text-align: center
-    }
-
-    /*
-    .destinations ul li {
-        list-style-type: disc;
-        font-size: 30px;
-    }
-*/
-    #services-cards-container {
-        /*        overflow-y: hidden;*/
-        width: 100%;
-        height: auto;
-    }
-
-    #services-container-subheader {
-        font-size: 1.47rem;
-        height: 160px;
-        width: 400px;
-    }
-
-    #popular-destinations-header {
-        background-color: red;
-        /*        position:static;*/
-        margin-top: 50px;
-    }
-
-    /*    #popular-destinations-header {}*/
-
-
-    .hway-info-m {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-top: 12px;
-    }
-
-    .info-image-m {
-        width: 100%;
-        height: 220px;
-    }
-
-    .info-image-m img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .info-text-m {
-        color: whitesmoke;
-        margin: 20px 0px;
-        text-align: center;
-    }
-
-    .info-text-m h3 {
-        padding: 0px 15px;
-    }
-
-    #left,
-    #right {
-        float: none;
-    }
-
-    .blue-curve-inverted {
-        top: 2180px
     }
 
 }

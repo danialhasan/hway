@@ -934,7 +934,7 @@ info-image-m {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
     #footer-info-container-small {
         margin: 70px 0px 0px 0px;
         padding: 0px;
@@ -1040,26 +1040,11 @@ info-image-m {
     }
 
     .hway-info {
+        /*
         width: 100%;
         height: 400px;
-    }
-
-    .info-text {
-        width: 100%;
-        height: 200px;
-        float: right;
-
-        /*        display:none;*/
-    }
-
-    .info-text h3 {
-        font-size: 20px;
-    }
-
-    .info-image {
-        width: 100%;
-        height: 220px;
-        float: left;
+*/
+        display: none;
     }
 
     #canada ul {
@@ -1096,6 +1081,7 @@ info-image-m {
     #services-container-subheader {
         font-size: 1.47rem;
         height: 160px;
+        width: 400px;
     }
 
     #popular-destinations-header {
@@ -1104,7 +1090,43 @@ info-image-m {
         margin-top: 50px;
     }
 
-    #popular-destinations-header {}
+    /*    #popular-destinations-header {}*/
 
+
+    .hway-info-m {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+
+    .info-image-m {
+        width: 100%;
+        height: 220px;
+    }
+
+    .info-image-m img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .info-text-m {
+        color: whitesmoke;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .info-text-m h3 {
+        padding: 0px 15px;
+    }
+
+    #left,
+    #right {
+        float: none;
+    }
+
+    .blue-curve-inverted {
+        top: 2180px
+    }
 
 }

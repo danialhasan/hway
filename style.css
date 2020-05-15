@@ -987,8 +987,17 @@ info-image-m {
         margin: 0px;
     }
 
+    #services-container-header {
+        font-size: 50px;
+
+    }
+
     #popular-destinations-header {
         margin-top: 150px;
+    }
+
+    #popular-destinations-header {
+        font-size: 50px;
     }
 
     #popular-destinations {

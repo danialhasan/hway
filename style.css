@@ -425,12 +425,41 @@ info-image-m {
 }
 
 @media only screen and (max-width:1745px) {
+    #footer-info-container-small {
+        width: 60%;
+    }
+
+    .footer-info {
+        width: 350px;
+    }
+
     .footer-info:last-of-type {
         margin: 0px;
     }
 
-    #services-container-subheader {
-        max-width: 1600px;
+    #footer-copyright-info {
+        margin-right: 100px;
+        width: 500px;
+
+    }
+
+    #footer-copyright-info h3 {
+        font-size: 1.875rem;
+    }
+
+    #footer ul li {
+        font-size: 1.875rem;
+    }
+}
+
+@media only screen and (max-width:1680px) {
+    .footer-info:last-of-type {
+        margin: 0px;
+    }
+
+    #services-container {
+        height: 900px;
+        /*        border: 1px solid red;*/
     }
 
     .hway-info {
@@ -443,7 +472,78 @@ info-image-m {
         min-width: 315px;
         margin: 46px 100px;
     }
+
+    #services-cards-container {
+        width: 100%;
+    }
+
+    #popular-destinations-header {
+        margin-top: 0px;
+    }
+
+    #header {
+        top: 250px;
+        width: 650px;
+        height: 250px;
+    }
+
+    #header h1 {
+        font-size: 4rem;
+    }
+
+    #subheader {
+        top: 300px;
+        width: 450px;
+        height: 200px;
+    }
+
+    #subheader ul li {
+        font-size: 2.75rem;
+    }
+
+    #footer-info-container-small {
+        width: 64.375rem;
+    }
 }
+
+@media only screen and (max-width:1536px) {
+    #footer-info-container-small {
+        width: 60%;
+    }
+
+    #footer-copyright-info {
+        margin-right: 100px;
+        width: 400px;
+    }
+
+    #footer-copyright-info h3,
+    #footer ul li {
+        font-size: 1.5rem;
+    }
+
+    .footer-info-small:last-of-type {
+        width: 310px;
+    }
+}
+
+@media only screen and (max-width: 1455px) {
+    #footer-info-container-small {
+        width: 60%;
+    }
+
+    #footer-copyright-info {
+        margin-right: 100px;
+        width: 400px;
+    }
+
+
+    #footer-copyright-info h3,
+    #footer ul li {
+        font-size: 1.5rem;
+    }
+
+}
+
 
 @media only screen and (max-width: 1440px) {
     .nav {
@@ -571,11 +671,11 @@ info-image-m {
 
     #footer ul li,
     h3 {
-        font-size: 25px
+        font-size: 1.25rem;
     }
 
     #footer-info-container-small {
-        width: auto;
+        width: 50%;
     }
 
     .footer-info:first-of-type {
@@ -602,9 +702,171 @@ info-image-m {
         float: none;
         margin-left: 10px
     }
+
+    #footer-copyright-info {
+        margin-right: 100px;
+    }
+
+    /*    
+     #footer-info-container-small {
+        width: 50%;
+    }
+
+    #footer-copyright-info {
+        margin-right: 100px;
+    }
+
+    #footer ul li {
+        font-size: 1.25rem;
+    }
+    */
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1310px) {
+    #header {
+        width: 600px;
+    }
+
+    #subheader {
+        right: 100px;
+        width: 400px;
+    }
+
+    #popular-destinations-subheader {
+        width: auto;
+    }
+
+    #footer-info-container-small {
+        width: 50%;
+        /*        background-color: red;*/
+    }
+
+    #footer-copyright-info {
+        margin-right: 100px;
+    }
+
+    #footer ul li {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 1152px) {
+
+    /*    125% zoom on 1440px*/
+    .nav img {
+        margin-left: 30px;
+    }
+
+    .nav ul {
+        margin-right: 30px;
+    }
+
+    #header {
+        width: 600px;
+        top: 150px;
+        left: 30px;
+    }
+
+    #subheader {
+        width: 400px;
+        top: 200px;
+        right: 30px;
+    }
+
+    .button {
+        top: 525px;
+    }
+
+    #services-container {
+        height: 1300px;
+    }
+
+    #popular-destinations-subheader {
+        width: auto;
+    }
+
+    .hway-info {
+        width: 100%;
+    }
+
+    #popular-destinations {
+        width: 100%;
+    }
+
+    #services-cards-container {
+        width: 100%;
+        margin: 80px auto;
+        flex-wrap: wrap;
+    }
+
+    #services-container-header {
+        font-size: 60px;
+    }
+
+    #services-container-subheader {
+        font-size: 25px;
+        max-width: 70%;
+        margin: 46px auto;
+
+    }
+
+    .card {
+        margin: 0px 30px;
+    }
+
+    /*
+
+    #footer-info-container-small {
+        width: 60%;
+    }
+
+    #footer-copyright-info {
+        margin-right: 30px;
+
+    }
+
+    .footer-info {
+        margin-right: 0px;
+    }
+
+    .footer-info:first-of-type {
+        margin-left: 30px;
+    }
+
+
+    #footer-copyright-info h3 {
+        font-size: 1.25rem;
+    }
+
+    #footer ul li {
+        font-size: 1.25rem;
+    }
+*/
+    /*
+    #img1, #img2,#img3{
+        width:32px;
+        height:32px;
+    }
+*/
+    #footer-info-container-small {
+        width: 60%;
+    }
+
+    #footer-copyright-info {
+        margin-right: 30px;
+        width: 400px;
+    }
+
+    #footer ul li,
+    #footer-copyright-info h3 {
+        font-size: 1.25rem;
+    }
+
+}
+
+/*@media only screen and (max-width: 1067px) {}*/
+
+@media only screen and (max-width: 1067px) {
     #overlay {
         position: fixed;
         top: 0;

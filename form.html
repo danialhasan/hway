@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/e674c7fc1d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description” content="H WAY is an integrated kosher trip planning solution with both kosher catering & event planning divisions that service cities across North America">
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="navbar" class="nav">
+        <a href="index.html">
+            <img src="Assets/Hway%20Logo.jpg" />
+        </a>
+        <ul>
+            <li onclick="myFunction(), overlay()"><a href="#why-hway-container">Why HWAY?</a></li>
+            <li onclick="myFunction(), overlay()"><a href="#services-container">Services</a></li>
+            <li onclick="myFunction(), overlay()"><a href="#popular-destinations-header">Popular Destinations</a></li>
+            <li onclick="myFunction(), overlay()"><a href="form.html">Contact Us</a></li>
+            <a class="icon" onclick="myFunction(), overlay()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </ul>
+    </div>
+    <h1 id="form-header">Get in touch with us</h1>
+    <h2 id="form-subheader">Submit inquiries below or email info@hwayglobal.com</h2>
+    <div id="form">
+        <form action="https://formspree.io/mnqgpylz" method="POST">
+            <label>
+                <!--                Your email:-->
+                <input type="text" name="_replyto" placeholder="Your email here...">
+            </label>
+            <label>
+                <!--                Your message:-->
+                <textarea name="message" placeholder="Your message here..."></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit" class="form-button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

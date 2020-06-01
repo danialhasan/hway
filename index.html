@@ -5,8 +5,7 @@
     <title>HWAY Event Planning and Kosher Catering</title>
     <script src="https://kit.fontawesome.com/e674c7fc1d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Description here">
-    <!--get description copy from Lyle-->
+    <meta name=”description” content="H WAY is an integrated kosher trip planning solution with both kosher catering & event planning divisions that service cities across North America">
     <link href="reset.css" type="text/css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
@@ -14,14 +13,16 @@
 <body>
 
     <div id="navbar" class="nav">
-        <img src="Assets/Hway%20Logo.jpg" />
+        <a href="index.html">
+            <img src="Assets/Hway%20Logo.jpg" />
+        </a>
         <ul>
             <li onclick="myFunction(), overlay()"><a href="#why-hway-container">Why HWAY?</a></li>
             <li onclick="myFunction(), overlay()"><a href="#services-container">Services</a></li>
             <li onclick="myFunction(), overlay()"><a href="#popular-destinations-header">Popular Destinations</a></li>
-            <li onclick="myFunction(), overlay()"><a href="mailto:lshugar@hwayglobal.com">Contact Us</a></li>
+            <li onclick="myFunction(), overlay()"><a href="form.html">Contact Us</a></li>
             <a class="icon" onclick="myFunction(), overlay()">
-                <i class="fa    `s fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </a>
         </ul>
     </div>
@@ -40,9 +41,8 @@
         </ul>
     </div>
 
-
-    <button type="button" class="button">
-        <h3>Contact Us</h3>
+    <button type="button" class="button" onclick="redirect()">
+        <h3>Contact Us </h3>
     </button>
 
     <img class="blue-curve" src="Assets/bluecurve.svg" />
@@ -189,7 +189,6 @@
     <div id="footer">
         <h2 id="footer-slogan">“The Kosher Trip Planning Specialist”</h2>
 
-        <!--        <div id="footer-info-container">-->
         <div id="footer-info-container-small">
             <div class="footer-info">
                 <img src="Assets/location-icon.svg" id="img1" />
@@ -209,20 +208,21 @@
                     </ul>
                 </div>
                 <div class="footer-info-small">
-                    <img src="Assets/email-icon.svg" id="img3" />
-                    <ul>
-                        <li>info@hwayglobal.com</li>
-                    </ul>
+                    <a class="footer-email" href="mailto:info@hwayglobal.com">
+                        <img src="Assets/email-icon.svg" id="img3" />
+                        <ul>
+                            <li>info@hwayglobal.com</li>
+                        </ul>
+                    </a>
                 </div>
             </div>
         </div>
         <div id="footer-copyright-info">
             <h3>Copyright © H WAY Event Planning
-                and Kosher Catering Ltd, 2010.<br>
+                and Kosher Catering Ltd, 2019.<br>
                 All Rights Reserved.</h3>
             <h3>Site Map</h3>
         </div>
-        <!--        </div>-->
     </div>
 
     <script src="script.js"></script>

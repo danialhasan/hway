@@ -53,3 +53,9 @@ function calculateZoomWidth() {
 
     console.log("Working!")
 }
+
+function redirect() {
+    console.log("function called!");
+
+    location.href = "form.html";
+}

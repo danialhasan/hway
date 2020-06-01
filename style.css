@@ -1189,9 +1189,16 @@ textarea {
 
     }
 
+    #form-header {
+        margin-top: 215px;
+    }
+
 }
 
 @media only screen and (max-width: 786px) {
+    #form-header {
+        font-size: 50px;
+    }
 
     #header {
         z-index: -2;
@@ -1330,6 +1337,15 @@ textarea {
 }
 
 @media only screen and (max-width: 425px) {
+    #form {
+        width: auto;
+        margin: 50px 30px;
+    }
+
+    #form-header {
+        margin: 215px 30px 25px 30px;
+    }
+
     #header {
         /*        border: 1px solid red;*/
         positioN: absolute;
